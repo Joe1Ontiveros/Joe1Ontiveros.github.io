@@ -1,2 +1,2 @@
 # Joe1Ontiveros.github.io
-Website - Comp sci 1201
+Personal Website - Initially started in Comp sci 1201 @ University of Denver
