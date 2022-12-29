@@ -1,12 +1,18 @@
 @charset "utf-8";
 .HeaderM1 {
-    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-family: "Bebas Neue";
     font-size: 16px;
     font-style: oblique;
     line-height: normal;
     font-weight: bold;
     font-variant: normal;
-    background-color: #000000;
+    background-color: #201132;
     word-spacing: normal;
-    border-bottom: thin dashed #9E6BFC;
+    border-bottom: thin solid #FFFFFF;
+}
+#NAME_WEBANIMX {
+    font-family: "Bebas Neue";
+    font-size: 36px;
+    font-style: normal;
+    line-height: normal;
 }
