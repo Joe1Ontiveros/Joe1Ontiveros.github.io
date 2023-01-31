@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+
+/* Button glow from: https://ianlunn.github.io/Hover/  */
+/* SHADOW/GLOW TRANSITIONS */
+/* Glow */
+.hvr-glow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 4px rgba(71, 0, 91, 0.716);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    font-family: "Bebas Neue";
+    font-size: 28px;
+    font-style: normal;
+    margin-right: 5%;
+  }
+  .hvr-glow2 {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 4px rgba(71, 0, 91, 0.716);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    font-family: "Bebas Neue";
+    font-size: 28px;
+    font-style: normal;
+  }
+
+  .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 0 16px rgba(0, 225, 255, 0.6);
+  }
+  .hvr-glow2:hover, .hvr-glow2:focus, .hvr-glow2:active {
+    box-shadow: 0 0 16px rgba(0, 225, 255, 0.6);
+  }
+
+* {
+padding: 0;
+margin: 0;
+}
+// Developed by http://grohit.com/
+/* CSS style breaks when ^^ removed, unsure why! */
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+min-height: 100vh;
+font-family: "Bebas Neue";
+}
+
+div {
+color: #727272;
+text-align: center;
+}
+
+nav {
+margin-left: 25px;
+position: -webkit-sticky; /* Safari -> edited to be sticky/stay on screen when scrolling down */
+position: sticky; 
+margin-right: 25px;
+margin-bottom:50px;
+background: #381d3d;
+padding: 16px;
+opacity: 84%;
+border-radius: 4px;
+}
+/* // Developed by http://grohit.com/ */
+
+
+
