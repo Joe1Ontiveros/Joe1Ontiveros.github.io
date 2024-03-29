@@ -1,5 +1,5 @@
 const nextConfig = {
-    basePath: "/portfolio-joe-react1",
+    // basePath: "/portfolio-joe-react1",
     output: "export",  // <=== enables static exports
     
     reactStrictMode: true,
