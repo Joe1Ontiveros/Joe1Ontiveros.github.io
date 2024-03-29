@@ -118,13 +118,16 @@
 import React from "react";
 import { Header } from "../comp";
 import "./style.css";
+import NoSSRWrapper from  "dev/comp/nossr"; 
+
 // import {Research} from "dev/app/research";
 // import { Provider } from 'react-redux';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import {BrowserRouter} from 'react-router-dom';
+// import {BrowserRouter} from 'reac/t-router-dom';
 
 export const Home = ({ className }) => {
   return (
+      <NoSSRWrapper>
       <div className="HOME-ABOUT-SKILLS-PG">
         <div className="div-2">
           <div className="overlap-5">
@@ -200,6 +203,7 @@ export const Home = ({ className }) => {
           </div>
         </div>
       </div>
+      </NoSSRWrapper>
   );
 };
 

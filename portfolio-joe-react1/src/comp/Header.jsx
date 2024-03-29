@@ -24,7 +24,7 @@ export const Header = ({ className }) => {
           <div className="overlap-group">
             <div className="div" />
             {/* <div className="text-wrapper">About Me</div> */}
-            <Link className="text-wrapper" to="/">About Me</Link>
+            <Link className="text-wrapper" to="">About Me</Link>
           </div>
         </div>
         <div className="reserc">
@@ -47,7 +47,7 @@ export const Header = ({ className }) => {
         </div>
       </div>
       <Routes>
-        <Route exact path="/" component={Home} />
+        <Route exact path="" component={Home} />
         <Route path="/experience" component={Experience} />
         <Route path="/research" component={Research}/>
         <Route path="/projects" component={Projects}/>

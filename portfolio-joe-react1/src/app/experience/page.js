@@ -1,8 +1,10 @@
+"use client";
+
 import React from "react";
 import { Header } from "dev/comp/Header";
-import {Home} from "dev/app/page";
-import "./style.css";
-import Image from 'next/image'
+// import "./style.css";
+// import Image from 'next/image'
+import NoSSRWrapper from  "dev/comp/nossr"; 
 
 
 const Experience = ({ className }) => {
@@ -15,11 +17,14 @@ const Experience = ({ className }) => {
   // ]
   return (
     //   <div className={`EXPERIENCE`}>
-    <div>
-            <p>
-                Work in progress! Coming Soon!
-            </p>
-    </div>
+    <NoSSRWrapper>
+      <div>
+        <Header className="header-instance" />
+          <p>
+              Work in progress! Coming Soon!
+          </p>
+      </div>
+    </NoSSRWrapper>
   );
 };
 
