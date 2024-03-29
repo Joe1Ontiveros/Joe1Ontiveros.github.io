@@ -1,0 +1,119 @@
+.RESEARCH {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.RESEARCH .div-2 {
+  background-color: #ffffff;
+  height: 3707px;
+  overflow: hidden;
+  position: relative;
+  width: 1512px;
+}
+.RESEARCH .img {
+  height: 880px;
+  left: 26px;
+  object-fit: cover;
+  position: absolute;
+  top: 2047px;
+  width: 1420px;
+}
+.RESEARCH .overlap-5 {
+  height: 1318px;
+  left: 2px;
+  position: absolute;
+  top: 107px;
+  width: 1527px;
+}
+.RESEARCH .overlap-6 {
+  height: 1318px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1510px;
+}
+.RESEARCH .text-wrapper-5 {
+  color: #000000;
+  font-family: "Manrope-Bold", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  left: 271px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 938px;
+}
+
+.RESEARCH .over-the-summer-of {
+  color: #000000;
+  font-family: "Manrope-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 100px;
+  width: 1510px;
+}
+
+
+.RESEARCH .presentfinal {
+  height: 743px;
+  left: 63px;
+  object-fit: scale-down;
+  position: absolute;
+  top: 575px;
+  width: 1381px;
+}
+.RESEARCH .group {
+  height: 129px;
+  left: 1445px;
+  position: absolute;
+  top: 857px;
+  width: 65px;
+}
+.RESEARCH .btimg {
+  height: 1px;
+  left: 45px;
+  position: absolute;
+  top: 55px;
+  width: 8px;
+}
+.RESEARCH .arrow {
+  height: 109px;
+  left: 1456px;
+  position: absolute;
+  top: 666px;
+  width: 71px;
+}
+.RESEARCH .following-the-summer {
+  color: #000000;
+  font-family: "Manrope-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1434px;
+  width: 1446px;
+}
+.RESEARCH .image {
+  height: 752px;
+  left: 26px;
+  object-fit: cover;
+  position: absolute;
+  top: 2927px;
+  width: 1420px;
+}
+ .RESEARCH .header-instance {
+  background-color: transparent !important;
+  left: -52px !important;
+  position: absolute !important;
+  top: -5px !important;
+ }
