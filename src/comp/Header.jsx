@@ -15,6 +15,20 @@ import Projects from 'dev/app/projects/page';
 import Experience from "dev/app/experience/page";
 
 export const Header = ({ className }) => {
+  // hot fix for navigation bar redirecting, forced a refresh to update the page on click
+  function onClickResearch() {
+    window.location.href = "/research"
+  }
+  function onClickExperience() {
+    window.location.href = "/experience"
+  }
+  function onClickProjects() {
+    window.location.href = "/projects"
+  }
+  function onClickHome() {
+    window.location.href = "/"
+  }
+
   return (
     <BrowserRouter>
     <div className={`header ${className}`}>
@@ -24,25 +38,26 @@ export const Header = ({ className }) => {
           <div className="overlap-group">
             <div className="div" />
             {/* <div className="text-wrapper">About Me</div> */}
-            <Link className="text-wrapper" to="">About Me</Link>
+            <Link onClick={onClickHome} className="text-wrapper" to="">About Me</Link>
           </div>
         </div>
         <div className="reserc">
           <div className="overlap-2">
             <div className="rectangle-2" />
-            <Link className="text-wrapper-2" to="/research">Research</Link>
+            <Link onClick={onClickResearch} className="text-wrapper-2" to="/research">Research</Link>
+            
           </div>
         </div>
         <div className="exper">
           <div className="overlap-3">
             <div className="rectangle-3" />
-            <Link className="text-wrapper-3" to="/experience">Experience</Link>
+            <Link onClick={onClickExperience} className="text-wrapper-3" to="/experience">Experience</Link>
           </div>
         </div>
         <div className="proj">
           <div className="overlap-4">
             <div className="rectangle-4" />
-            <Link className="text-wrapper-4" to="/projects">Projects</Link>
+            <Link onClick={onClickProjects} className="text-wrapper-4" to="/projects">Projects</Link>
           </div>
         </div>
       </div>

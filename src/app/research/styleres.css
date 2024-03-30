@@ -104,12 +104,14 @@
   width: 1446px;
 }
 .RESEARCH .image {
+  background-image:'public/img1.png';
   height: 752px;
   left: 26px;
   object-fit: cover;
   position: absolute;
   top: 2927px;
   width: 1420px;
+
 }
  .RESEARCH .header-instance {
   background-color: transparent !important;

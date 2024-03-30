@@ -6,23 +6,16 @@ import { Header } from "dev/comp/Header";
 // import Image from 'next/image'
 import NoSSRWrapper from  "dev/comp/nossr"; 
 
-
 const Experience = ({ className }) => {
-  // const images = [
-  //   {
-  //     src: './img1.jpeg',
-  //     alt: 'SRI Slide demo view',
-  //   },
-  //   // ... more images
-  // ]
   return (
     //   <div className={`EXPERIENCE`}>
     <NoSSRWrapper>
       <div>
         <Header className="header-instance" />
           <p>
-              Work in progress! Coming Soon!
+              Work in progress! Coming Soon! In the meantime, check out my LinkedIn for up to date work experience!!
           </p>
+          <href>https://www.linkedin.com/in/joeontiveros/</href>
       </div>
     </NoSSRWrapper>
   );

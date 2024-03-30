@@ -4,17 +4,12 @@ import React from "react";
 import { Header } from "dev/comp/Header";
 // import {Home} from "dev/app/page";
 import "./styleres.css";
-// import Image from 'next/image'
+import Image from 'next/image' // fixed issue with images, just needed to import this lol and place images in /public/
 import NoSSRWrapper from  "dev/comp/nossr"; 
 
+// import img1 from "public/img1.png";
+
 const Research = ({ className }) => {
-  // const images = [
-  //   {
-  //     src: './img1.jpeg',
-  //     alt: 'SRI Slide demo view',
-  //   },
-  //   // ... more images
-  // ]
   return (<NoSSRWrapper>
         <div className={`RESEARCH`}>
         <div className="div-2">
@@ -29,8 +24,7 @@ const Research = ({ className }) => {
               integrate an intuitive user interface for controlling multiple MAVs (micro-air vehicles) through the use of
               ROS Noetic, Rviz, Python3, and the tkinter library.
             </p>
-
-            <img className="presentfinal" src="./img1.jpeg"/>
+            <img className="presentfinal" src='img1.png'/>
             {/* <img className="presentfinal" src="https://drive.usercontent.google.com/download?id=148maOvWBh7dTidvhIzqcJB9eJ_sVNau9&authuser=0"/> */}
             <p className="following-the-summer">
               Following the Summer Research Initiative, I applied and got accepted a Partners in Scholarship award (P.I.N.S) by the University of Denver to continue my research.
@@ -41,8 +35,8 @@ const Research = ({ className }) => {
               from the CrazySwarm to better improve the overall safety and usability of the interface for
               non-experienced users.
             </p>
-            <img className="image" alt="Image" src="./img3r.png"/>
-            <img className="img" alt="Rectangle" src="./img2r1.png" />
+            <img className="image" alt="Image" src="img3r.png"/>
+            <img className="img" alt="Rectangle" src="img2r1.png" />
           </div>
         </div>
         </div>
