@@ -1,29 +1,38 @@
+/* globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 225, 225, 225;
+    --background-start-rgb: 27, 27, 27;
+    --background-end-rgb: 27, 27, 27;
+    --background: 27 27 27;
+    --foreground: 225 225 225;
+    --muted: 115 115 115;
+    --accent: 254 254 91;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #root, #__next {
+    height: 100%;
+  }
+
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-end-rgb))
+      )
+      rgb(var(--background-start-rgb));
+  }
 }
 
 @layer utilities {
@@ -31,25 +40,3 @@ body {
     text-wrap: balance;
   }
 }
-
-
-@import url("https://fonts.googleapis.com/css?family=Inter:400|Manrope:700");
-
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-      * {
-        -webkit-font-smoothing: antialiased;
-        box-sizing: border-box;
-      }
-      html,
-      body {
-        margin: 0px;
-        height: 100%;
-      }
-      /* a blue color as a generic focus style */
-      button:focus-visible {
-        outline: 2px solid #4a90e2 !important;
-        outline: -webkit-focus-ring-color auto 5px !important;
-      }
-      a {
-        text-decoration: none;
-      }

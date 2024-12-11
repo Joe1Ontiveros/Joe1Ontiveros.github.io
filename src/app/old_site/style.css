@@ -1,0 +1,360 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+.HOME-ABOUT-SKILLS-PG {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.HOME-ABOUT-SKILLS-PG .div-2 {
+  background-color: #ffffff;
+  height: 3002px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 1512px;
+}
+
+.HOME-ABOUT-SKILLS-PG .overlap-5 {
+  height: 95px;
+  left: -13px;
+  position: absolute;
+  top: 2917px;
+  width: 100%;
+  max-width: 1525px;
+}
+
+.HOME-ABOUT-SKILLS-PG .footer {
+  background-color: #d9d9d9;
+  height: 85px;
+  left: 13px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  max-width: 1512px;
+}
+
+.HOME-ABOUT-SKILLS-PG .flexcontainer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  height: 83px;
+  left: 0;
+  position: absolute;
+  top: 12px;
+  width: 100%;
+  max-width: 1525px;
+}
+
+.HOME-ABOUT-SKILLS-PG .text {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+}
+
+.HOME-ABOUT-SKILLS-PG .span {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.HOME-ABOUT-SKILLS-PG .overlap-6 {
+  height: 1334px;
+  left: -144px;
+  position: absolute;
+  top: -5px;
+  width: 100%;
+  max-width: 1840px;
+}
+
+.HOME-ABOUT-SKILLS-PG .rectangle-5 {
+  background-color: #d6dce1;
+  height: 567px;
+  left: 0;
+  position: absolute;
+  top: 734px;
+  width: 100%;
+  max-width: 1840px;
+}
+
+.HOME-ABOUT-SKILLS-PG .header-instance {
+  background-color: transparent !important;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute !important;
+  top: 0 !important;
+  width: 100%;
+}
+
+.HOME-ABOUT-SKILLS-PG .hey-my-name-is-joe {
+  color: #000000;
+  font-family: "Manrope", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 815px;
+  width: 100%;
+  max-width: 1069px;
+}
+
+.HOME-ABOUT-SKILLS-PG .pixilstudio {
+  height: 504px;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  position: absolute;
+  top: 766px;
+  width: 100%;
+  max-width: 336px;
+}
+
+.HOME-ABOUT-SKILLS-PG .text-wrapper-5 {
+  color: #000000;
+  font-family: "Manrope", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1286px;
+  white-space: nowrap;
+  width: 100%;
+  max-width: 475px;
+}
+
+.HOME-ABOUT-SKILLS-PG .rectangle-6 {
+  background-color: #06243a;
+  height: 647px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  max-width: 1512px;
+}
+
+.HOME-ABOUT-SKILLS-PG .citsc {
+  height: 644px;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  max-width: 1514px;
+}
+
+.HOME-ABOUT-SKILLS-PG .image {
+  height: 440px;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  position: absolute;
+  top: 178px;
+  width: 100%;
+  max-width: 467px;
+}
+
+.HOME-ABOUT-SKILLS-PG .ICONSX {
+  height: 1346px;
+  left: 0;
+  position: absolute;
+  top: 1350px;
+  width: 239px;
+}
+
+.HOME-ABOUT-SKILLS-PG .vector-wrapper {
+  background-color: #d9d9d9;
+  border-radius: 109.5px;
+  height: 219px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 219px;
+}
+
+.HOME-ABOUT-SKILLS-PG .vector {
+  height: 136px;
+  left: 34px;
+  position: absolute;
+  top: 42px;
+  width: 151px;
+}
+
+.HOME-ABOUT-SKILLS-PG .icon-bot-wrapper {
+  background-color: #d9d9d9;
+  border-radius: 109.5px;
+  height: 219px;
+  left: 10px;
+  position: absolute;
+  top: 379px;
+  width: 219px;
+}
+
+.HOME-ABOUT-SKILLS-PG .icon-bot {
+  height: 159px;
+  left: 45px;
+  position: absolute;
+  top: 25px;
+  width: 129px;
+}
+
+.HOME-ABOUT-SKILLS-PG .icon-draw-shape-wrapper {
+  background-color: #d9d9d9;
+  border-radius: 109.5px;
+  height: 219px;
+  left: 10px;
+  position: absolute;
+  top: 748px;
+  width: 219px;
+}
+
+.HOME-ABOUT-SKILLS-PG .icon-draw-shape {
+  height: 128px;
+  left: 45px;
+  position: absolute;
+  top: 46px;
+  width: 128px;
+}
+
+.HOME-ABOUT-SKILLS-PG .fa-group-wrapper {
+  background-color: #d9d9d9;
+  border-radius: 109.5px;
+  height: 219px;
+  left: 10px;
+  position: absolute;
+  top: 1117px;
+  width: 219px;
+}
+
+.HOME-ABOUT-SKILLS-PG .fa-group {
+  height: 145px;
+  left: 32px;
+  position: absolute;
+  top: 37px;
+  width: 155px;
+}
+
+.HOME-ABOUT-SKILLS-PG .frame {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 77px;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  position: absolute;
+  top: 1360px;
+}
+
+.HOME-ABOUT-SKILLS-PG .my-primary {
+  color: #000000;
+  font-family: "Manrope", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  height: 198px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: 100%;
+  max-width: 1162px;
+}
+
+.HOME-ABOUT-SKILLS-PG .i-am-proficient-at {
+  color: #000000;
+  font-family: "Manrope", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  height: 341px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 100%;
+  max-width: 1028px;
+}
+
+.HOME-ABOUT-SKILLS-PG .i-have-a-growing {
+  color: #000000;
+  font-family: "Manrope", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  height: 376px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 100%;
+  max-width: 1028px;
+}
+
+.HOME-ABOUT-SKILLS-PG .p {
+  color: #000000;
+  font-family: "Manrope", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  height: 307px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 100%;
+  max-width: 1028px;
+}
+
+/* Section for easy editing of text boxes, images, and icons */
+.text-boxes {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Manrope", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.text-boxes .text-wrapper {
+  margin-bottom: 20px;
+}
+
+.text-boxes .image {
+  width: 100%;
+  max-width: 467px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+.text-boxes .icon {
+  width: 100%;
+  max-width: 219px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
