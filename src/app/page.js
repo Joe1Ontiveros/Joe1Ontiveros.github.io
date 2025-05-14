@@ -11,12 +11,12 @@ export default function Home() {
   const [choice, setChoice] = useState(null);
 
   if (choice === "3D") {
-    window.location.href="/3D/";
+    window.location.href="/3D";
     return null;
   }
 
   if (choice === "2D") {
-    window.location.href = "/home/";
+    window.location.href = "/home";
     return null;
   }
 
