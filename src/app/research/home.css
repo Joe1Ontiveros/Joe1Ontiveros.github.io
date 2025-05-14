@@ -1,0 +1,113 @@
+
+
+div.imageC1 {
+    height: 12rem; /* Equivalent to h-48 in Tailwind */
+    background-image: url('/images/w12.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+div.imageC2 {
+    height: 12rem; /* Equivalent to h-48 in Tailwind */
+    background-image: url('/images/w13.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+div.imageC3 {
+    height: 12rem; /* Equivalent to h-48 in Tailwind */
+    background-image: url('../components/images/HL_show_2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+div.imagebgheadshot {
+    background-image:"images/headshot_1.jpg";
+    background-size: cover;
+    background-position:center;
+}
+
+@font-face {
+    font-family: 'digi';
+    src: url('/public/fonts/digital-7.ttf') format('truetype'),
+         url('/public/fonts/digital-7 (mono).ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'abduc';
+    src: url('/public/fonts/abduction2002.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text-digi {
+    font-family: 'digi';
+    font-style: normal;
+}
+.text-abduc {
+    font-family: 'abduc';
+    font-style:normal;
+}
+/* Credits:  */
+/* artfromrachel.gumroad.com - robotic arm model for page art */
+/* cyberpunk styles */
+
+
+
+/* .Title */
+
+/* Add this to your home.css file */
+
+/* Existing styles */
+/* .imageC1 {
+    height: 12rem;
+    background-image: url('/images/CCD1.png');
+    background: linear-gradient(to right, #93c5fd, #4f46e5);
+} */
+
+/* New styles for robotic hand animation */
+@keyframes glow {
+0% {
+    box-shadow: 0 0 10px rgba(99, 102, 241, 0.5);
+}
+50% {
+    box-shadow: 0 0 25px rgba(99, 102, 241, 0.8);
+}
+100% {
+    box-shadow: 0 0 10px rgba(99, 102, 241, 0.5);
+}
+}
+
+@keyframes float {
+0% {
+    transform: translateY(0px);
+}
+50% {
+    transform: translateY(-10px);
+}
+100% {
+    transform: translateY(0px);
+}
+}
+
+.robotic-hand-container {
+animation: float 6s ease-in-out infinite, glow 3s ease-in-out infinite;
+position: relative;
+}
+
+.tech-particle {
+position: absolute;
+border-radius: 50%;
+opacity: 0.6;
+filter: blur(1px);
+animation: float 4s ease-in-out infinite;
+}

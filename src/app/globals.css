@@ -40,3 +40,27 @@
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'digi';
+  src: url('/fonts/digital-7.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'abduc';
+  src: url('/fonts/abduction2002.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.text-digi {
+  font-family: 'digi', sans-serif;
+  font-style: normal;
+}
+
+.text-abduc {
+  font-family: 'abduc', sans-serif;
+  font-style: normal;
+}
