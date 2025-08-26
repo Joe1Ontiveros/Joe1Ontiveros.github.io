@@ -68,13 +68,12 @@ export default function Research() {
 
           <a
             href="https://drive.google.com/file/d/1urTLswjNEXs6IrpOA4wAzF3OijrVZvq1/view?usp=sharing"
-            target
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg shadow transition"
-            >
-          
-              LBR Paper
-            </a>
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg shadow transition"
+          >
+            LBR Paper
+          </a>
 
             <a
               href="https://drive.google.com/file/d/1g3NLYMSbH4enjKYSTWUS6pw1Ly_8jDBC/view?usp=sharing"
